@@ -57,7 +57,7 @@ li {
 .sharing,
 .photos,
 .meetup {
-    margin: 4em auto;
+    margin: auto;
 }
 
 .summary {
@@ -84,7 +84,6 @@ li {
 
 
 .summary h2 {
-    color: black;
     color: white;
 }
 
