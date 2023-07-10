@@ -17,7 +17,6 @@ body {
 
 .intro {
     height: 50rem;
-    width: 95rem;
     padding-top: 1rem;
     background-image: url(./images/group\ pic.jpg);
     background-position: center;
@@ -30,6 +29,10 @@ body {
     margin: auto;
     margin-top: 5rem;
     
+}
+
+.video {
+    padding-bottom: 15px;
 }
 
 .intro h1 {
