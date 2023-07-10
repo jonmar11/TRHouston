@@ -81,6 +81,11 @@ li {
     color: black;
 }
 
+.spotlight h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
 .summary h2 {
     color: black;
 }
