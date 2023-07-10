@@ -25,7 +25,7 @@ body {
 }
 
 .intro img {
-    width: 15rem;
+    width: 5rem;
     display: block;
     margin: auto;
     margin-top: 5rem;
@@ -57,7 +57,7 @@ li {
 .sharing,
 .photos,
 .meetup {
-    margin: auto;
+    margin: 4rem auto;
 }
 
 .summary {
