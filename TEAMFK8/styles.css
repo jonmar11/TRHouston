@@ -90,6 +90,7 @@ li {
 .photos img {
     width: 30%;
     margin: 1.5%;
+    display: inline-block;
 }
 
 .meetup {
