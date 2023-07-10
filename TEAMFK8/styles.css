@@ -81,7 +81,11 @@ li {
     color: black;
 }
 
-
+.spotlight {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
 
 .summary h2 {
     color: white;
