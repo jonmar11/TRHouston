@@ -16,12 +16,12 @@ body {
 }
 
 .intro {
-    height: 30rem;
+    height: 50rem;
+    width: 95rem;
     padding-top: 1rem;
     background-image: url(./images/group\ pic.jpg);
     background-position: center;
-    background-repeat: none;
-    
+    background-repeat: no-repeat;
 }
 
 .intro img {
@@ -34,7 +34,7 @@ body {
 
 .intro h1 {
     color: rgb(0, 0, 0);
-    font-size: 2rem;
+    font-size: 4rem;
     margin-top: 5rem;
     padding: 2rem;
     background-color: transparent;
