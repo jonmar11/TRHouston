@@ -7,8 +7,7 @@ body {
 
 .bar {
     padding-top: 1rem;
-    background-color: rgb(255, 255, 255);
-    color: lightgrey;
+    background-color: rgb(0, 0, 0);
 }
 
 .bar p {
@@ -42,6 +41,7 @@ body {
     padding: 2rem;
     background-color: transparent;
     text-align: center;
+    letter-spacing: 7px;
 }
 
 ul {
@@ -50,7 +50,7 @@ ul {
 }
 
 li {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 0.5rem 1.5rem;
     margin-right: 1.5rem;
     display: inline-block;
@@ -72,7 +72,7 @@ li {
 }
 
 .sharing {
-    background-color: lightgray;
+    background-color: rgb(0, 0, 0);
     height: 20rem;
     padding: 0 1rem;
     padding-top: 1rem;
@@ -81,13 +81,14 @@ li {
 
 .sharing h1 {
     font-size: 2.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .spotlight {
-    color: white;
+    color: rgb(248, 3, 3);
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
+    text-decoration: underline;
 }
 
 .summary h2 {
