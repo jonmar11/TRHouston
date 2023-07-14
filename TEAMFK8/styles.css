@@ -91,7 +91,8 @@ li {
 }
 
 .summary h2 {
-    color: white;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
 }
 
 .photos img {
