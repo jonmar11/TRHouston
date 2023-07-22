@@ -11,6 +11,7 @@
     <script src="website.js"></script>
     <script>
         window.confirm('Welcome to TEAM FK8 Houston')
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
 <body>
     <div class="bar">
@@ -58,11 +59,27 @@
         <h1>Member Spotlight</h1>
         <iframe class="video" width="1046" height="523" src="https://www.youtube.com/embed/89CtoVOqxXM" title="Coffee and Cars with my NEW CAR! | VLOG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <div class="bar">
-        <ul>
-            <a href="https://www.facebook.com/groups/fk8houston" target="_blank"><li>Facebook</li></a>
-            <a href="https://www.instagram.com/fk8houston_/" target="_blank"><li>Instagram</li></a>
-            <a href=""><li>Sponsors</li></a>
-        </ul>
-
+        <footer>
+            <div class="footer-wrapper">
+                <section class="footer-top">
+                    <a href="#" title="Logo">
+                        <img src="">
+                    </a>
+                    <span class="social-links">
+                        <a href="https://www.instagram.com/fk8houston_/" target="_blank" title="Instagram">
+                            <img src="./images/icons8-instagram-50.png" alt="Instagram" />
+                        </a>
+                        <a href="https://www.facebook.com/groups/fk8houston" target="_blank" title="Facebook">
+                            <img src="./images/icons8-facebook-50.png" alt="Facebook" />
+                        </a>
+                        <a href="#" title="Youtube">
+                            <img src="./images/icons8-youtube-50.png" alt="Youtube" />
+                        </a>
+                    </span>
+                </section>
+                <section class="footer-bottom">
+                    <small>TEAM FK8 HOUSTON <span id="year"></span></small>
+                </section>
+            </div>
+        </footer>
 </html>
