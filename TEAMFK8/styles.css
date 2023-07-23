@@ -117,7 +117,8 @@ li {
 * {
     box-sizing: border-box;
 }
-.footer {
+.footer,
+header {
     padding: 16px;
     position: absolute;
     background-color: white;
